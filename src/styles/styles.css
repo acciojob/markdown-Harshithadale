@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.textarea {
+  background-color: rgb(255, 248, 248);
+  padding: 15px;
+  min-width: 50%;
+  min-height: 100%;
+  border: none;
+  font-size: 15px;
+}
+.textarea:hover {
+  cursor: pointer;
+}
+.preview {
+  background-color: antiquewhite;
+  min-height: 100%;
+  padding: 25px;
+  min-width: 50%;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
